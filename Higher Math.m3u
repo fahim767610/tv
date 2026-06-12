@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-name="Lecture 01" tvg-logo="https://academic.aparsclassroom.com/_next/image?url=https%3A%2F%2Fapars.b-cdn.net%2Fvarsity%2Ffile-1772256266159-301495827.jpg&w=1920&q=75" group-title="Chapter 1: ম্যাট্রিক্স ও নির্ণায়ক",Lecture 01
-https://vz-50f80941-b7a.b-cdn.net/4f2990b4-3c7b-458f-bee4-49e3c2928457/playlist.m3u8
+https://vz-50f80941-b7a.b-cdn.net/4f2990b4-3c7b-458f-bee4-49e3c2928457/1080p/video.m3u8
 
 #EXTINF:-1 tvg-name="Lecture 02" tvg-logo="https://academic.aparsclassroom.com/_next/image?url=https%3A%2F%2Fapars.b-cdn.net%2Fvarsity%2Ffile-1772256266159-301495827.jpg&w=1920&q=75" group-title="Chapter 1: ম্যাট্রিক্স ও নির্ণায়ক",Lecture 02
 https://vz-50f80941-b7a.b-cdn.net/0d53679f-c1fd-40be-bcbd-c27ce67fed45/1080p/video.m3u8
