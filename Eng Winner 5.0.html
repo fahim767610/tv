@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Winner 5.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+        
+        body {
+            background-color: #020617;
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            background-image: 
+                radial-gradient(circle at 0% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, rgba(124, 58, 237, 0.08) 0%, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .glass {
+            background: rgba(15, 23, 42, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(30, 41, 59, 0.5);
+        }
+        
+        .glass-hover:hover {
+            background: rgba(15, 23, 42, 0.6);
+            border-color: rgba(59, 130, 246, 0.3);
+            box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.1);
+        }
+
+        @keyframes pulse-soft {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(0.95); }
+        }
+        .animate-pulse-soft { animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #020617; font-family: sans-serif;">
+            <div style="text-align: center;">
+                <div style="width: 40px; height: 40px; border: 3px solid rgba(59, 130, 246, 0.2); border-top-color: #2563eb; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 1rem;"></div>
+                <p style="color: #94a3b8; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">Initializing English Winner...</p>
+            </div>
+        </div>
+        <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+    </div>
+
+    <script>
+        window.onerror = function(msg, url, line, col, error) {
+            const root = document.getElementById('root');
+            if (root) {
+                root.innerHTML = `
+                    <div class="min-h-screen bg-[#020617] flex items-center justify-center p-6 text-center font-sans">
+                        <div class="max-w-[400px] bg-slate-800/50 border border-blue-500/20 p-8 rounded-2xl backdrop-blur-xl">
+                            <h2 style="color: #f1f5f9; font-size: 1.25rem; font-weight: 800; margin-bottom: 1rem;">Application Error</h2>
+                            <p style="color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.5rem;">${msg}</p>
+                            <button onclick="window.location.reload()" style="background: #2563eb; color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.75rem; font-weight: 700; cursor: pointer; border: none;">RETRY CONNECTION</button>
+                        </div>
+                    </div>
+                `;
+            }
+        };
+    </script>
+
+    <script type="module">
+        import React, { useState, useMemo, useEffect } from 'https://esm.sh/react@18.3.1';
+        import { createRoot } from 'https://esm.sh/react-dom@18.3.1/client';
+        import htm from 'https://esm.sh/htm@3.1.1';
+        import { 
+            Search, ExternalLink, BookOpen, GraduationCap, 
+            PlayCircle, Layers, FileText, ChevronUp, Archive, ArrowLeft
+        } from 'https://esm.sh/lucide-react@0.453.0?deps=react@18.3.1';
+        import { motion, AnimatePresence } from 'https://esm.sh/framer-motion@11.11.11?deps=react@18.3.1';
+
+        const html = htm.bind(React.createElement);
+
+        const MAIN_LINKS = [
+            { title: "Syllabus Analysis - Part 01", url: "https://youtu.be/REiIKiW5ADY", categories: ["Analysis/Suggestion"], keywords: "syllabus analysis" },
+            { title: "Syllabus Analysis - Part 02", url: "https://youtu.be/wvc3PuI8u4c", categories: ["Analysis/Suggestion"], keywords: "syllabus analysis" },
+            { title: "Education & Technology", url: "https://youtu.be/uukIdzwVEUQ", pdfUrl: "https://pdf.bondipathshala.education/1754861476936.pdf", categories: ["1st Paper"], keywords: "education technology" },
+            { title: "Civic Engagement", url: "https://youtu.be/-ZBCkI00c60", pdfUrl: "https://pdf.bondipathshala.education/1755033525767.pdf", categories: ["1st Paper"], keywords: "civic engagement" },
+            { title: "What is Beauty?", url: "https://youtu.be/Ue-5PgVs_74", pdfUrl: "https://pdf.bondipathshala.education/1755203568483.pdf", categories: ["1st Paper"], keywords: "what is beauty" },
+            { title: "Art - Part 01", url: "https://youtu.be/Qzweat5sYAk", pdfUrl: "https://pdf.bondipathshala.education/1756236169489.pdf", categories: ["1st Paper"], keywords: "art" },
+            { title: "Myths & Literature - Part 01", url: "https://youtu.be/ambdQcoOD44", pdfUrl: "https://pdf.bondipathshala.education/1756684157015.pdf", categories: ["1st Paper"], keywords: "myths literature" },
+            { title: "Myths & Literature - Part 02", url: "https://youtu.be/QHB4sc1ESPo", pdfUrl: "https://pdf.bondipathshala.education/1756842994931.pdf", categories: ["1st Paper"], keywords: "myths literature" },
+            { title: "Theme Writing", url: "https://youtu.be/ctxjfZ3S7ek", pdfUrl: "https://pdf.bondipathshala.education/1758257854252.pdf", categories: ["Writing"], keywords: "theme writing" },
+            { title: "Great Women - Part 01", url: "https://youtu.be/7q8uSjrLuIg", pdfUrl: "https://pdf.bondipathshala.education/1758626033223.pdf", categories: ["1st Paper"], keywords: "great women" },
+            { title: "Great Women - Part 02", url: "https://youtu.be/6QDUzkOJfNg", pdfUrl: "https://pdf.bondipathshala.education/1758882613212.pdf", categories: ["1st Paper"], keywords: "great women" },
+            { title: "NARRATION & THEME WRITING", url: "https://youtu.be/UOex6P3ch5I", pdfUrl: "https://pdf.bondipathshala.education/1759172818299.pdf", categories: ["Writing"], keywords: "narration theme writing" },
+            { title: "Dreams", url: "https://youtu.be/BTa5OlW-t9g", pdfUrl: "https://pdf.bondipathshala.education/1759867045746.pdf", categories: ["1st Paper"], keywords: "dreams" },
+            { title: "Family Relationship", url: "https://youtu.be/1i18vMzwFJM", pdfUrl: "https://pdf.bondipathshala.education/1761044499585.pdf", categories: ["1st Paper"], keywords: "family relationship" },
+            { title: "Stories from Gaza - Part 1.1", url: "https://youtu.be/7u7lRL7DbQ8", pdfUrl: "https://pdf.bondipathshala.education/1761342907982.pdf", categories: ["1st Paper"], keywords: "stories from gaza" },
+            { title: "Stories from Gaza - Part 1.2", url: "https://youtu.be/SCLwOBqbzcw", pdfUrl: "https://pdf.bondipathshala.education/1761342952897.pdf", categories: ["1st Paper"], keywords: "stories from gaza" },
+            { title: "Youthful Achivers - Part 01", url: "https://youtu.be/E23fdWJGrIs", pdfUrl: "https://pdf.bondipathshala.education/1762933966800.pdf", categories: ["1st Paper"], keywords: "youthful achivers" },
+            { title: "Youthful Achivers - Part 02", url: "https://youtu.be/lMYMJgb-3S0", pdfUrl: "https://pdf.bondipathshala.education/1763116625139.pdf", categories: ["1st Paper"], keywords: "youthful achivers" },
+            { title: "Three Speeches - Part 01", url: "https://youtu.be/qqTCSNEinyQ", pdfUrl: "https://pdf.bondipathshala.education/1764095493766.pdf", categories: ["1st Paper"], keywords: "three speeches" },
+            { title: "Three speeches - Part 02", url: "https://youtu.be/nL_FjfIr5I0", pdfUrl: "https://pdf.bondipathshala.education/1764308525431.pdf", categories: ["1st Paper"], keywords: "three speeches" },
+            { title: "What is Environmental Justice?-Part 01", url: "https://youtu.be/9WdQtwMmUz4", pdfUrl: "https://pdf.bondipathshala.education/1765183352806.pdf", categories: ["1st Paper"], keywords: "environmental justice" },
+            { title: "What is Environmental Justice?-Part 02", url: "https://youtu.be/5mCfA4R7q58", pdfUrl: "https://pdf.bondipathshala.education/1766239545548.pdf", categories: ["1st Paper"], keywords: "environmental justice" },
+            { title: "Consumerism", url: "https://youtu.be/R6IzfEgmAzs", pdfUrl: "https://pdf.bondipathshala.education/1765360091669.pdf", categories: ["1st Paper"], keywords: "consumerism" },
+            { title: "Environment and Nature", url: "https://youtu.be/DmHN30dG1VY", pdfUrl: "https://pdf.bondipathshala.education/1765613640966.pdf", categories: ["1st Paper"], keywords: "environment and nature" },
+            { title: "The Greta Effect Part-01", url: "https://youtu.be/k21W0FpHArg", pdfUrl: "https://pdf.bondipathshala.education/1765955360368.pdf", categories: ["1st Paper"], keywords: "the greta effect" },
+            { title: "The Greta Effect Part-02", url: "https://youtu.be/ZB8QWga0ewY", pdfUrl: "https://pdf.bondipathshala.education/1766239586601.pdf", categories: ["1st Paper"], keywords: "the greta effect" },
+            { title: "Final Suggestion Special Class", url: "https://youtu.be/NTueUJjjiz4", pdfUrl: "https://pdf.bondipathshala.education/1766844684649.pdf", categories: ["Analysis/Suggestion"], keywords: "final suggestion special class" },
+            { title: "Exam System & Reading Strategy - Part 01", url: "https://youtu.be/13jv7w0iVhE", pdfUrl: "https://pdf.bondipathshala.education/1754519639970.pdf", categories: ["Analysis/Suggestion"], keywords: "exam system reading strategy" },
+            { title: "Exam System & Reading Strategy - Part 02", url: "https://youtu.be/ffY332h7Bq8", pdfUrl: "https://pdf.bondipathshala.education/1754519711339.pdf", categories: ["Analysis/Suggestion"], keywords: "exam system reading strategy" },
+            { title: "Preposition - Part 01", url: "https://youtu.be/YprAt1WndtQ", pdfUrl: "https://pdf.bondipathshala.education/1755460018376.pdf", categories: ["Grammar"], keywords: "preposition" },
+            { title: "Preposition - Part 02", url: "https://youtu.be/keugMX62iTQ", pdfUrl: "https://pdf.bondipathshala.education/1755639010799.pdf", categories: ["Grammar"], keywords: "preposition" },
+            { title: "Phrase & Words - Part 01", url: "https://youtu.be/8YzY3oQMSqU", pdfUrl: "https://pdf.bondipathshala.education/1756076945341.pdf", categories: ["Grammar"], keywords: "phrase words" },
+            { title: "Phrase & Words - Part 02", url: "https://youtu.be/KUGkBkqlypM", pdfUrl: "https://pdf.bondipathshala.education/1756076887758.pdf", categories: ["Grammar"], keywords: "phrase words" },
+            { title: "Pronoun References", url: "https://youtu.be/3S6VIgpBYDc", pdfUrl: "https://pdf.bondipathshala.education/1761346050031.pdf", categories: ["Grammar"], keywords: "pronoun references" },
+            { title: "Completing Sentence - Part 01", url: "https://youtu.be/hSab-yT-_IU", pdfUrl: "https://pdf.bondipathshala.education/1757313083293.pdf", categories: ["Grammar"], keywords: "completing sentence" },
+            { title: "Completing Sentence - Part 02", url: "https://youtu.be/pCvI_-a4Ehs", pdfUrl: "https://pdf.bondipathshala.education/1757671574180.pdf", categories: ["Grammar"], keywords: "completing sentence" },
+            { title: "Completing Sentence - Part 03", url: "https://youtu.be/Wm99EfgT7Nw", pdfUrl: "https://pdf.bondipathshala.education/1757671606121.pdf", categories: ["Grammar"], keywords: "completing sentence" },
+            { title: "Right form of verb - Part 01", url: "https://youtu.be/P5cTpSH5T1w", pdfUrl: "https://pdf.bondipathshala.education/1757919844773.pdf", categories: ["Grammar"], keywords: "right form of verb" },
+            { title: "Right form of verb - Part 02", url: "https://youtu.be/qb3cdC3VWHs", pdfUrl: "https://pdf.bondipathshala.education/1758057675532.pdf", categories: ["Grammar"], keywords: "right form of verb" },
+            { title: "Narration", url: "https://youtu.be/6sMCBeM8Goo", pdfUrl: "https://pdf.bondipathshala.education/1759690764647.pdf", categories: ["Grammar"], keywords: "narration" },
+            { title: "Modifier - Part 01", url: "https://youtu.be/EWs5xdIc4Ec", pdfUrl: "https://pdf.bondipathshala.education/1760512079786.pdf", categories: ["Grammar"], keywords: "modifier" },
+            { title: "Modifier - Part 02", url: "https://youtu.be/gqYMsJRAjpU", pdfUrl: "https://pdf.bondipathshala.education/1760512173644.pdf", categories: ["Grammar"], keywords: "modifier" },
+            { title: "Connectors", url: "https://youtu.be/NEJXNRoMrow", pdfUrl: "https://pdf.bondipathshala.education/1761663520238.pdf", categories: ["Grammar"], keywords: "connectors" },
+            { title: "Connectors - Part 02", url: "https://youtu.be/9yVAFDWj5Ag", pdfUrl: "https://pdf.bondipathshala.education/1762629130118.pdf", categories: ["Grammar"], keywords: "connectors" },
+            { title: "Connectors and Vocabulary", url: "https://youtu.be/PgHqvzfoBbQ", pdfUrl: "https://pdf.bondipathshala.education/1762458704476.pdf", categories: ["Grammar"], keywords: "connectors vocabulary" },
+            { title: "Synonym & Antonym - Part 01", url: "https://youtu.be/TO44I73yxBU", pdfUrl: "https://pdf.bondipathshala.education/1762459934384.pdf", categories: ["Grammar"], keywords: "synonym antonym" },
+            { title: "Synonyms & Antonyms - Part 02", url: "https://youtu.be/BNhLPTTmbUo", pdfUrl: "https://pdf.bondipathshala.education/1762701343517.pdf", categories: ["Grammar"], keywords: "synonyms antonyms" },
+            { title: "Article - Part 01", url: "https://youtu.be/1AoaPTXrQMc", pdfUrl: "https://pdf.bondipathshala.education/1763430084267.pdf", categories: ["Grammar"], keywords: "article" },
+            { title: "Article - Part 02", url: "https://youtu.be/X9_BM3Pucho", pdfUrl: "https://pdf.bondipathshala.education/1763710963767.pdf", categories: ["Grammar"], keywords: "article" },
+            { title: "Changing Sentence Part 01", url: "https://youtu.be/z8lFGATbJUk", pdfUrl: "https://pdf.bondipathshala.education/1766386435396.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Changing Sentence-Part 02", url: "https://youtu.be/OBJs_9rwD_8", pdfUrl: "https://pdf.bondipathshala.education/1766999350285.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Changing Sentence-03", url: "https://youtu.be/vzBdVF8o_p0", pdfUrl: "https://pdf.bondipathshala.education/1767170347219.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Changing Sentence-Part 04", url: "https://youtu.be/qMDYEnA1trM", pdfUrl: "https://pdf.bondipathshala.education/1767347456878.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Changing Sentence-Part 05", url: "https://youtu.be/UaFzNQ7LNAk", pdfUrl: "https://pdf.bondipathshala.education/1767536210734.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Board Question Analyses", url: "https://youtu.be/xBRs0akd1dM", pdfUrl: "https://pdf.bondipathshala.education/1767704535252.pdf", categories: ["Analysis/Suggestion"], keywords: "board question analyses" }
+        ];
+
+        const ARCHIVE_LINKS = [
+            { title: "The Unforgettable History - Part 01", url: "https://www.youtube.com/watch?v=xmsy5643rfo", pdfUrl: "https://pdf.bondipathshala.education/1751132256019.pdf", categories: ["1st Paper"], keywords: "history" },
+            { title: "The Unforgettable History - Part 02", url: "https://www.youtube.com/watch?v=ulKCfKUEqjU", pdfUrl: "https://pdf.bondipathshala.education/1751132256019.pdf", categories: ["1st Paper"], keywords: "history" },
+            { title: "Nelson Mandela", url: "https://www.youtube.com/watch?v=BhqR_7MsfXc", pdfUrl: "https://pdf.bondipathshala.education/1751132427028.pdf", categories: ["1st Paper"], keywords: "mandela" },
+            { title: "Valentina Tereshkova", url: "https://www.youtube.com/watch?v=sINflWmcqdg", pdfUrl: "https://pdf.bondipathshala.education/1751314948527.pdf", categories: ["1st Paper"], keywords: "valentina" },
+            { title: "Kalpana Chawla", url: "https://www.youtube.com/watch?v=jlZQrYngOSg", pdfUrl: "https://pdf.bondipathshala.education/1751315025078.pdf", categories: ["1st Paper"], keywords: "kalpana chawla" },
+            { title: "What is a Dream? - Part 01", url: "https://www.youtube.com/watch?v=oqly7Q-UONE", pdfUrl: "https://pdf.bondipathshala.education/1751315082734.pdf", categories: ["1st Paper"], keywords: "dream" },
+            { title: "What is a Dream? - Part 02", url: "https://www.youtube.com/watch?v=XZ5OhHINj8U", pdfUrl: "https://pdf.bondipathshala.education/1751315156570.pdf", categories: ["1st Paper"], keywords: "dream" },
+            { title: "I Have a Dream - Part 01", url: "https://www.youtube.com/watch?v=LaYJ5wVkSBc", pdfUrl: "https://pdf.bondipathshala.education/1751315185286.pdf", categories: ["1st Paper"], keywords: "dream" },
+            { title: "I Have a Dream - Part 02", url: "https://www.youtube.com/watch?v=CMH2M9g01MU", pdfUrl: "https://pdf.bondipathshala.education/1751315209915.pdf", categories: ["1st Paper"], keywords: "dream" },
+            { title: "Fitness", url: "https://www.youtube.com/watch?v=kaTkTYUaVzA", pdfUrl: "https://pdf.bondipathshala.education/1751315247669.pdf", categories: ["1st Paper"], keywords: "fitness" },
+            { title: "Spending", url: "https://www.youtube.com/watch?v=PWOzz2-uMmc", pdfUrl: "https://pdf.bondipathshala.education/1751315281582.pdf", categories: ["1st Paper"], keywords: "spending" },
+            { title: "The Storm & Stress of Adolescence - Part 01", url: "https://www.youtube.com/watch?v=bhozyHPOOLU", pdfUrl: "https://pdf.bondipathshala.education/1751315313994.pdf", categories: ["1st Paper"], keywords: "adolescence" },
+            { title: "The Storm Stress of Adolescence - Part 02", url: "https://www.youtube.com/watch?v=X1lGMmTNp0E", pdfUrl: "https://pdf.bondipathshala.education/1751315366779.pdf", categories: ["1st Paper"], keywords: "adolescence" },
+            { title: "Adolescence and Some Related Problems - Part 01", url: "https://www.youtube.com/watch?v=wSkad_jc1RQ", pdfUrl: "https://pdf.bondipathshala.education/1751315407576.pdf", categories: ["1st Paper"], keywords: "adolescence problems" },
+            { title: "Adolescence and Some Related Problems - Part 02", url: "https://www.youtube.com/watch?v=rj6kA20pVzk", pdfUrl: "https://pdf.bondipathshala.education/1751315445097.pdf", categories: ["1st Paper"], keywords: "adolescence problems" },
+            { title: "The Story of Shilpi", url: "https://www.youtube.com/watch?v=G5W-rGUhoes", pdfUrl: "https://pdf.bondipathshala.education/1751315481579.pdf", categories: ["1st Paper"], keywords: "shilpi" },
+            { title: "Say ‘No’ to Bullying", url: "https://www.youtube.com/watch?v=4VZrDOBvWdA", pdfUrl: "https://pdf.bondipathshala.education/1751315507913.pdf", categories: ["1st Paper"], keywords: "bullying" },
+            { title: "Brojen Das - Part 01", url: "https://www.youtube.com/watch?v=XbJB4z9rTXM", pdfUrl: "https://pdf.bondipathshala.education/1751315565073.pdf", categories: ["1st Paper"], keywords: "brojen das" },
+            { title: "Brojen Das - Part 02", url: "https://www.youtube.com/watch?v=nSdD9hgHVAU", pdfUrl: "https://pdf.bondipathshala.education/1751315591648.pdf", categories: ["1st Paper"], keywords: "brojen das" },
+            { title: "Scaling A Mountain Peak - Part 01", url: "https://www.youtube.com/watch?v=Iiowi1afPBk", pdfUrl: "https://pdf.bondipathshala.education/1751315628473.pdf", categories: ["1st Paper"], keywords: "mountain peak" },
+            { title: "Folk Music - Part 01", url: "https://www.youtube.com/watch?v=BLFXJSXI9eI", pdfUrl: "https://pdf.bondipathshala.education/1751315653536.pdf", categories: ["1st Paper"], keywords: "folk music" },
+            { title: "Scalling a Mountain Peak - Part 02, Folk Music - Part 02", url: "https://www.youtube.com/watch?v=GW6fqpBOpgs", pdfUrl: "https://pdf.bondipathshala.education/1751315653536.pdf", categories: ["1st Paper"], keywords: "mountain folk" },
+            { title: "Myths of Bengal", url: "https://www.youtube.com/watch?v=FeViwjDrsoM", pdfUrl: "https://pdf.bondipathshala.education/1751315715026.pdf", categories: ["1st Paper"], keywords: "myths bengal" },
+            { title: "Civic Engagement - Part 01", url: "https://www.youtube.com/watch?v=ffhVjUHnt50", pdfUrl: "https://pdf.bondipathshala.education/1751315746201.pdf", categories: ["1st Paper"], keywords: "civic engagement" },
+            { title: "Civic Engagement 02, Graph & Chart", url: "https://www.youtube.com/watch?v=e-QDFym2sLo", pdfUrl: "https://pdf.bondipathshala.education/1751315746201.pdf", categories: ["1st Paper", "Writing"], keywords: "civic graph chart" },
+            { title: "Family Relationship", url: "https://www.youtube.com/watch?v=BdfjuZCK_1k", pdfUrl: "https://pdf.bondipathshala.education/1751315775576.pdf", categories: ["1st Paper"], keywords: "family" },
+            { title: "The Unbeaten Girls - Part 01", url: "https://www.youtube.com/watch?v=5CYpxaeK678", pdfUrl: "https://pdf.bondipathshala.education/1751315805668.pdf", categories: ["1st Paper"], keywords: "unbeaten girls" },
+            { title: "The Unbeaten Girls - Part 02, Amerigo", url: "https://www.youtube.com/watch?v=WLnCUBIan8s", pdfUrl: "https://pdf.bondipathshala.education/1751315839057.pdf", categories: ["1st Paper"], keywords: "unbeaten amerigo" },
+            { title: "Etiquette Netiquette", url: "https://www.youtube.com/watch?v=Jgmo9WnDLbQ", pdfUrl: "https://pdf.bondipathshala.education/1751315866534.pdf", categories: ["1st Paper"], keywords: "etiquette netiquette" },
+            { title: "Water, Water Everywhere", url: "https://www.youtube.com/watch?v=o-qNauOpnj0", pdfUrl: "https://pdf.bondipathshala.education/1751315894497.pdf", categories: ["1st Paper"], keywords: "water" },
+            { title: "Education and Technology - Part 01", url: "https://www.youtube.com/watch?v=FE40nv5RFTI", pdfUrl: "https://pdf.bondipathshala.education/1751315956276.pdf", categories: ["1st Paper"], keywords: "education technology" },
+            { title: "Education and Technology - Part 02", url: "https://www.youtube.com/watch?v=_IqJ5LAtOPo", pdfUrl: "https://pdf.bondipathshala.education/1751315986749.pdf", categories: ["1st Paper"], keywords: "education technology" },
+            { title: "Khona", url: "https://www.youtube.com/watch?v=1T7Ka_lDCP0", pdfUrl: "https://pdf.bondipathshala.education/1751316030237.pdf", categories: ["1st Paper"], keywords: "khona" },
+            { title: "The Legend of Gazi", url: "https://www.youtube.com/watch?v=yNm_XlNfai0", pdfUrl: "https://pdf.bondipathshala.education/1751316076952.pdf", categories: ["1st Paper"], keywords: "legend gazi" },
+            { title: "Craft", url: "https://www.youtube.com/watch?v=fJ5ze92OkiM", pdfUrl: "https://pdf.bondipathshala.education/1751316102090.pdf", categories: ["1st Paper"], keywords: "craft" },
+            { title: "The Great Effect", url: "https://www.youtube.com/watch?v=PsWYomCCnWg", pdfUrl: "https://pdf.bondipathshala.education/1751316128104.pdf", categories: ["1st Paper"], keywords: "great effect" },
+            { title: "What is Environmental Justice - Part 01", url: "https://www.youtube.com/watch?v=riZvOKuWE80", pdfUrl: "https://pdf.bondipathshala.education/1751316162433.pdf", categories: ["1st Paper"], keywords: "environmental justice" },
+            { title: "What is Environmental Justice - Part 02", url: "https://www.youtube.com/watch?v=NwEWLvd28Bc", pdfUrl: "https://pdf.bondipathshala.education/1751316183474.pdf", categories: ["1st Paper"], keywords: "environmental justice" },
+            { title: "What is Beauty ?", url: "https://www.youtube.com/watch?v=_dMyCRQ70OQ", pdfUrl: "https://pdf.bondipathshala.education/1751316207268.pdf", categories: ["1st Paper"], keywords: "beauty" },
+            { title: "Preposition - Part 01", url: "https://www.youtube.com/watch?v=mk1ECPBOjfE", pdfUrl: "https://pdf.bondipathshala.education/1751318490189.pdf", categories: ["Grammar"], keywords: "preposition" },
+            { title: "Preposition - Part 02", url: "https://www.youtube.com/watch?v=OVCVUFRzjgc", pdfUrl: "https://pdf.bondipathshala.education/1751318518850.pdf", categories: ["Grammar"], keywords: "preposition" },
+            { title: "Preposition - Part 03", url: "https://www.youtube.com/watch?v=tnks_jHPKRs", pdfUrl: "https://pdf.bondipathshala.education/1751318542762.pdf", categories: ["Grammar"], keywords: "preposition" },
+            { title: "Use of Special Phrases/Words - Part 01", url: "https://www.youtube.com/watch?v=trnZZwamvQQ", pdfUrl: "https://pdf.bondipathshala.education/1751318572903.pdf", categories: ["Grammar"], keywords: "phrases words" },
+            { title: "Use of Special Phrases/Words - Part 02", url: "https://www.youtube.com/watch?v=gS8FiPuAhac", pdfUrl: "https://pdf.bondipathshala.education/1751318599228.pdf", categories: ["Grammar"], keywords: "phrases words" },
+            { title: "Completing Sentence - Part 01", url: "https://www.youtube.com/watch?v=IjwecOB_Z8w", pdfUrl: "https://pdf.bondipathshala.education/1751318626467.pdf", categories: ["Grammar"], keywords: "completing sentence" },
+            { title: "Completing Sentence - Part 02", url: "https://www.youtube.com/watch?v=pJ7pPbIN1Ns", pdfUrl: "https://pdf.bondipathshala.education/1751318673601.pdf", categories: ["Grammar"], keywords: "completing sentence" },
+            { title: "Completing Sentence - Board Question Analysis", url: "https://www.youtube.com/watch?v=tS1NuIp2O-s", pdfUrl: "https://pdf.bondipathshala.education/1751318698180.pdf", categories: ["Grammar", "Analysis/Suggestion"], keywords: "completing sentence board" },
+            { title: "Tense - Part 01", url: "https://www.youtube.com/watch?v=mqQ8thA1VHQ", pdfUrl: "https://pdf.bondipathshala.education/1751318719542.pdf", categories: ["Grammar"], keywords: "tense" },
+            { title: "Tense - Part 02", url: "https://www.youtube.com/watch?v=I_lDkGri8YU", pdfUrl: "https://pdf.bondipathshala.education/1751318745170.pdf", categories: ["Grammar"], keywords: "tense" },
+            { title: "Tense - Part 03", url: "https://www.youtube.com/watch?v=bsVDBclOqKU", pdfUrl: "https://pdf.bondipathshala.education/1751318783679.pdf", categories: ["Grammar"], keywords: "tense" },
+            { title: "Modifier - Part 01", url: "https://www.youtube.com/watch?v=aMolHtbWEAg", pdfUrl: "https://pdf.bondipathshala.education/1751318807469.pdf", categories: ["Grammar"], keywords: "modifier" },
+            { title: "Modifier - Part 02", url: "https://www.youtube.com/watch?v=uICtANaFrzc", pdfUrl: "https://pdf.bondipathshala.education/1751318835460.pdf", categories: ["Grammar"], keywords: "modifier" },
+            { title: "Modifier - Part 03 (Board Question Analysis)", url: "https://www.youtube.com/watch?v=_-z1hX0BdZE", pdfUrl: "https://pdf.bondipathshala.education/1751318875254.pdf", categories: ["Grammar", "Analysis/Suggestion"], keywords: "modifier board" },
+            { title: "Narration - Part 01", url: "https://www.youtube.com/watch?v=0D7N_lado1c", pdfUrl: "https://pdf.bondipathshala.education/1751318904759.pdf", categories: ["Grammar"], keywords: "narration" },
+            { title: "Narration - Part 02", url: "https://www.youtube.com/watch?v=J6YBbPkiEX4", pdfUrl: "https://pdf.bondipathshala.education/1751318924445.pdf", categories: ["Grammar"], keywords: "narration" },
+            { title: "Narration - Part 03", url: "https://www.youtube.com/watch?v=SWj8zTSkhyQ", pdfUrl: "https://pdf.bondipathshala.education/1751318948368.pdf", categories: ["Grammar"], keywords: "narration" },
+            { title: "Right Form of Verb - Part 01", url: "https://www.youtube.com/watch?v=ZcdnfIavrwg", pdfUrl: "https://pdf.bondipathshala.education/1751318981636.pdf", categories: ["Grammar"], keywords: "right form verb" },
+            { title: "Right Form of Verb - Part 02", url: "https://www.youtube.com/watch?v=aAjMB_UW080", pdfUrl: "https://pdf.bondipathshala.education/1751319005669.pdf", categories: ["Grammar"], keywords: "right form verb" },
+            { title: "Right Form of Verb - Part 03", url: "https://www.youtube.com/watch?v=DuDaMIZTeJA", pdfUrl: "https://pdf.bondipathshala.education/1751319038444.pdf", categories: ["Grammar"], keywords: "right form verb" },
+            { title: "Punctuation - Part 01", url: "https://www.youtube.com/watch?v=Anf8itvWOUs", pdfUrl: "https://pdf.bondipathshala.education/1751319065153.pdf", categories: ["Grammar"], keywords: "punctuation" },
+            { title: "Punctuation - Part 02", url: "https://www.youtube.com/watch?v=JBsJyqwH4NY", pdfUrl: "https://pdf.bondipathshala.education/1751319117866.pdf", categories: ["Grammar"], keywords: "punctuation" },
+            { title: "Synonym & Antonym - Part 01 , Letter & Email", url: "https://www.youtube.com/watch?v=vInzCGhhQ6A", pdfUrl: "https://pdf.bondipathshala.education/1751319155361.pdf", categories: ["Grammar", "Writing"], keywords: "synonym antonym letter email" },
+            { title: "Synonym & Antonym - Part 02", url: "https://www.youtube.com/watch?v=93WYYDw-5Y0", pdfUrl: "https://pdf.bondipathshala.education/1751319193289.pdf", categories: ["Grammar"], keywords: "synonym antonym" },
+            { title: "Sentence Connectors - Part 01", url: "https://www.youtube.com/watch?v=ukuAIjGqIWo", pdfUrl: "https://pdf.bondipathshala.education/1751319225545.pdf", categories: ["Grammar"], keywords: "connectors" },
+            { title: "Sentence Connectors - Part 02", url: "https://www.youtube.com/watch?v=vHXO2MsI174", pdfUrl: "https://pdf.bondipathshala.education/1751319247580.pdf", categories: ["Grammar"], keywords: "connectors" },
+            { title: "Sentence Connectors - Part 03", url: "https://www.youtube.com/watch?v=n6JZcHphlo8", pdfUrl: "https://pdf.bondipathshala.education/1751319247580.pdf", categories: ["Grammar"], keywords: "connectors" },
+            { title: "Rearrange", url: "https://www.youtube.com/watch?v=cbPhJ7PaMo0", pdfUrl: "https://pdf.bondipathshala.education/1751319296726.pdf", categories: ["Grammar"], keywords: "rearrange" },
+            { title: "Pronoun Reference - Part 01", url: "https://www.youtube.com/watch?v=e0XK3LbCP7A", pdfUrl: "https://pdf.bondipathshala.education/1751319326906.pdf", categories: ["Grammar"], keywords: "pronoun reference" },
+            { title: "Pronoun Reference - Part 02", url: "https://www.youtube.com/watch?v=QNJUYrg9YRg", pdfUrl: "https://pdf.bondipathshala.education/1751319387961.pdf", categories: ["Grammar"], keywords: "pronoun reference" },
+            { title: "Article - Part 01", url: "https://www.youtube.com/watch?v=adM_Eu44FO8", pdfUrl: "https://pdf.bondipathshala.education/1751319659110.pdf", categories: ["Grammar"], keywords: "article" },
+            { title: "Article - Part 02", url: "https://www.youtube.com/watch?v=QuXAsNCKEJs", pdfUrl: "https://pdf.bondipathshala.education/1751319659110.pdf", categories: ["Grammar"], keywords: "article" },
+            { title: "With Clues & Without Clues", url: "https://www.youtube.com/watch?v=RRLAZwwRLmc", pdfUrl: "https://pdf.bondipathshala.education/1751319461902.pdf", categories: ["Grammar"], keywords: "clues without clues" },
+            { title: "Changing Sentence - Part 01", url: "https://www.youtube.com/watch?v=btB7J1TbWc8", pdfUrl: "https://pdf.bondipathshala.education/1751319488871.pdf", categories: ["Grammar"], keywords: "changing sentence" },
+            { title: "Simple, Complex, Compound - Part 01", url: "https://www.youtube.com/watch?v=7Jvt1XCZyVs", pdfUrl: "https://pdf.bondipathshala.education/1751319519395.pdf", categories: ["Grammar"], keywords: "simple complex compound" },
+            { title: "Simple, Complex & Compound - Part 02", url: "https://www.youtube.com/watch?v=scXn8-usFjg", pdfUrl: "https://pdf.bondipathshala.education/1751319543007.pdf", categories: ["Grammar"], keywords: "simple complex compound" },
+            { title: "Voice Change", url: "https://www.youtube.com/watch?v=Sy12SrNjA4E", pdfUrl: "https://pdf.bondipathshala.education/1751319567235.pdf", categories: ["Grammar"], keywords: "voice change" }
+        ];
+
+        const TARGET_CATEGORIES = ['All', '1st Paper', 'Grammar', 'Writing', 'Analysis/Suggestion'];
+
+        function App() {
+            const [view, setView] = useState('main'); // 'main' or 'archive'
+            const [searchQuery, setSearchQuery] = useState('');
+            const [selectedCategory, setSelectedCategory] = useState('All');
+            const [showScrollTop, setShowScrollTop] = useState(false);
+
+            useEffect(() => {
+                const handleScroll = () => setShowScrollTop(window.scrollY > 400);
+                window.addEventListener('scroll', handleScroll);
+                return () => window.removeEventListener('scroll', handleScroll);
+            }, []);
+
+            const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            const activeLinks = view === 'main' ? MAIN_LINKS : ARCHIVE_LINKS;
+
+            const filteredLinks = useMemo(() => {
+                const query = (searchQuery || '').toLowerCase().trim();
+                
+                return activeLinks.filter(link => {
+                    const safeTitle = link.title ? link.title.toLowerCase() : '';
+                    const safeKeywords = link.keywords ? link.keywords.toLowerCase() : '';
+                    
+                    const matchesSearch = query === '' || safeTitle.includes(query) || safeKeywords.includes(query);
+                    
+                    const matchesCategory = selectedCategory === 'All' || 
+                        (Array.isArray(link.categories) && link.categories.some(c => c && c.trim() === selectedCategory.trim()));
+                        
+                    return matchesSearch && matchesCategory;
+                });
+            }, [searchQuery, selectedCategory, activeLinks]);
+
+            const getCategoryIcon = (category) => {
+                switch (category) {
+                    case '1st Paper': return html`<${BookOpen} className="w-4 h-4" />`;
+                    case 'Grammar': return html`<${Layers} className="w-4 h-4" />`;
+                    case 'Writing': return html`<${FileText} className="w-4 h-4" />`;
+                    case 'Analysis/Suggestion': return html`<${GraduationCap} className="w-4 h-4" />`;
+                    default: return html`<${PlayCircle} className="w-4 h-4" />`;
+                }
+            };
+
+            const toggleView = () => {
+                setView(prev => prev === 'main' ? 'archive' : 'main');
+                setSearchQuery('');
+                setSelectedCategory('All');
+                scrollToTop();
+            };
+
+            return html`
+                <div className="min-h-screen text-slate-100 font-sans">
+                    <header className="sticky top-0 z-50 bg-[#020617]/60 backdrop-blur-xl border-b border-slate-800/50">
+                        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3">
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                <div className="flex items-center justify-between w-full sm:w-auto gap-3">
+                                    <div className="flex items-center gap-3">
+                                        <div className=${`p-1.5 rounded-lg shadow-lg ${view === 'main' ? 'bg-blue-600 shadow-blue-500/20' : 'bg-purple-600 shadow-purple-500/20'}`}>
+                                            ${view === 'main' 
+                                                ? html`<${BookOpen} className="w-5 h-5 text-white" />` 
+                                                : html`<${Archive} className="w-5 h-5 text-white" />`}
+                                        </div>
+                                        <div>
+                                            <h1 className="text-xl font-extrabold tracking-tight text-white leading-none flex items-center gap-2">
+                                                ${view === 'main' ? 'English Winner 5.0' : 'English Winner 4.0'}
+                                                ${view === 'archive' && html`<span className="text-[10px] bg-purple-500/20 text-purple-400 px-1.5 py-0.5 rounded border border-purple-500/30 uppercase tracking-widest ml-1 font-bold">Archive</span>`}
+                                            </h1>
+                                            <div className="flex items-center gap-2 mt-1">
+                                                <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Repository</p>
+                                                <span className="w-1 h-1 rounded-full bg-slate-700"></span>
+                                                <p className=${`text-[10px] font-bold uppercase tracking-widest ${view === 'main' ? 'text-blue-500/80' : 'text-purple-500/80'}`}>${filteredLinks.length} Lectures</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="flex flex-col sm:flex-row gap-3 flex-1 sm:justify-end">
+                                    <div className="relative group max-w-xs w-full sm:w-64">
+                                        <${Search} className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-slate-500 group-focus-within:text-blue-400 transition-colors" />
+                                        <input
+                                            type="text"
+                                            aria-label="Search classes"
+                                            placeholder="Search classes..."
+                                            className="w-full pl-9 pr-4 py-2 bg-slate-900/50 border border-slate-800 focus:bg-slate-900 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/5 rounded-xl transition-all outline-none text-xs text-white placeholder:text-slate-600"
+                                            value=${searchQuery}
+                                            onInput=${(e) => setSearchQuery(e.target.value)}
+                                        />
+                                    </div>
+                                    <button 
+                                        onClick=${toggleView}
+                                        className=${`flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all border ${view === 'main' ? 'bg-slate-800/40 border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white' : 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-500/20 hover:bg-blue-500'}`}
+                                    >
+                                        ${view === 'main' 
+                                            ? html`<${Archive} className="w-3.5 h-3.5" /> <span>Go to Archive</span>` 
+                                            : html`<${ArrowLeft} className="w-3.5 h-3.5" /> <span>Back to Main Course</span>`}
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-4 pb-1">
+                                <div className="flex items-center gap-2 overflow-x-auto no-scrollbar flex-1">
+                                    ${TARGET_CATEGORIES.map((cat) => html`
+                                        <button
+                                            key=${cat}
+                                            onClick=${() => setSelectedCategory(cat)}
+                                            className=${"px-4 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all duration-300 relative overflow-hidden " + (selectedCategory === cat ? (view === 'main' ? "bg-blue-600 text-white shadow-lg shadow-blue-600/20 scale-105" : "bg-purple-600 text-white shadow-lg shadow-purple-600/20 scale-105") : "bg-slate-900/50 text-slate-500 border border-slate-800/50 hover:border-slate-700 hover:text-slate-300")}
+                                        >
+                                            ${selectedCategory === cat && html`
+                                                <${motion.div}
+                                                    layoutId="active-cat-glow"
+                                                    className="absolute inset-0 bg-white/20 animate-pulse"
+                                                />
+                                            `}
+                                            <span className="relative z-10">${cat}</span>
+                                        </button>
+                                    `)}
+                                </div>
+                                
+                                ${view === 'main' && html`
+                                    <div className="flex items-center gap-2 shrink-0 overflow-x-auto no-scrollbar">
+                                        <a 
+                                            href="https://drive.google.com/drive/folders/1LVDcaOucmdJAkc5ZiyIBHJG2aS5nhEJj?usp=drive_link" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-900/50 text-blue-400 border border-blue-500/20 hover:bg-blue-500/10 hover:border-blue-500/50 transition-all whitespace-nowrap"
+                                        >
+                                            <${BookOpen} className="w-3.5 h-3.5" />
+                                            Lecture Sheet
+                                        </a>
+                                        <a 
+                                            href="https://drive.google.com/drive/folders/1qAg2W5yPFPehKltzcZvpjybra8mvVIXq?usp=drive_link" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-900/50 text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/10 hover:border-emerald-500/50 transition-all whitespace-nowrap"
+                                        >
+                                            <${FileText} className="w-3.5 h-3.5" />
+                                            Practice Sheet
+                                        </a>
+                                    </div>
+                                `}
+                            </div>
+                        </div>
+                    </header>
+
+                    <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                            <${AnimatePresence} mode="popLayout">
+                                ${filteredLinks.map((link, index) => html`
+                                    <${motion.div}
+                                        layout
+                                        initial=${{ opacity: 0, y: 20 }}
+                                        animate=${{ opacity: 1, y: 0 }}
+                                        exit=${{ opacity: 0, scale: 0.95 }}
+                                        transition=${{ 
+                                            duration: 0.4, 
+                                            delay: index * 0.02,
+                                            ease: [0.23, 1, 0.32, 1]
+                                        }}
+                                        key=${link.title + index}
+                                        onClick=${() => window.location.href = link.url}
+                                        className="group relative glass glass-hover rounded-2xl p-5 cursor-pointer flex flex-col justify-between overflow-hidden"
+                                    >
+                                        <div className=${`absolute inset-0 bg-gradient-to-br from-transparent via-transparent transition-all duration-700 ${view === 'main' ? 'group-hover:from-blue-600/5 group-hover:to-cyan-600/5 to-cyan-600/0' : 'group-hover:from-purple-600/5 group-hover:to-pink-600/5 to-pink-600/0'}`} />
+                                        
+                                        <div className="relative z-10">
+                                            <div className="flex items-center justify-between mb-4">
+                                                <div className="flex flex-wrap gap-1.5">
+                                                    ${link.categories && link.categories.map(cat => html`
+                                                        <span key=${cat} className=${`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[9px] font-black uppercase tracking-tighter border ${view === 'main' ? 'bg-blue-500/10 text-blue-400 border-blue-500/20' : 'bg-purple-500/10 text-purple-400 border-purple-500/20'}`}>
+                                                            ${getCategoryIcon(cat)}
+                                                            ${cat}
+                                                        </span>
+                                                    `)}
+                                                </div>
+                                                <div className=${`p-1.5 rounded-lg bg-slate-800/50 group-hover:rotate-12 transition-all duration-300 ${view === 'main' ? 'group-hover:bg-blue-600' : 'group-hover:bg-purple-600'}`}>
+                                                    <${ExternalLink} className="w-3 h-3 text-slate-500 group-hover:text-white transition-colors" />
+                                                </div>
+                                            </div>
+                                            <h3 className="text-sm font-bold text-slate-200 leading-snug group-hover:text-white transition-colors line-clamp-2">
+                                                ${link.title}
+                                            </h3>
+                                        </div>
+                                        
+                                        <div className="relative z-10 mt-5 pt-4 border-t border-slate-800/50 flex flex-wrap items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                                            <div className="flex flex-wrap items-center gap-2">
+                                                <span className=${`flex items-center gap-1.5 transition-colors mr-2 ${view === 'main' ? 'group-hover:text-blue-400' : 'group-hover:text-purple-400'}`}>
+                                                    <div className="relative flex h-2 w-2">
+                                                        <div className=${`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${view === 'main' ? 'bg-blue-400' : 'bg-purple-400'}`}></div>
+                                                        <div className=${`relative inline-flex rounded-full h-2 w-2 ${view === 'main' ? 'bg-blue-500' : 'bg-purple-500'}`}></div>
+                                                    </div>
+                                                    Lecture
+                                                </span>
+                                                ${link.pdfUrl && link.pdfUrl !== 'N/A' && html`
+                                                    <a 
+                                                        href=${link.pdfUrl} 
+                                                        target="_blank" 
+                                                        rel="noopener noreferrer"
+                                                        onClick=${(e) => e.stopPropagation()}
+                                                        className="flex items-center gap-1.5 px-2 py-1 rounded-md bg-red-500/5 border border-red-500/20 text-red-500/70 hover:text-red-400 hover:bg-red-500/10 hover:border-red-500/40 transition-all duration-300"
+                                                    >
+                                                        <${FileText} className="w-3 h-3" />
+                                                        PDF
+                                                    </a>
+                                                `}
+                                            </div>
+                                            <span className=${`opacity-0 group-hover:opacity-100 translate-x-2 group-hover:translate-x-0 transition-all duration-300 ml-auto ${view === 'main' ? 'text-blue-500' : 'text-purple-500'}`}>
+                                                START →
+                                            </span>
+                                        </div>
+                                    <//>
+                                `)}
+                            <//>
+                        </div>
+
+                        ${filteredLinks.length === 0 && html`
+                            <div className="text-center py-32">
+                                <div className="bg-slate-900 w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 border border-slate-800 shadow-inner">
+                                    <${Search} className="w-10 h-10 text-slate-700" />
+                                </div>
+                                <h3 className="text-xl font-bold text-white">No lectures found</h3>
+                                <p className="text-slate-500 mt-2">Try adjusting your search or category filter</p>
+                            </div>
+                        `}
+                    </main>
+
+                    <${AnimatePresence}>
+                        ${showScrollTop && html`
+                            <${motion.button}
+                                initial=${{ opacity: 0, y: 20 }}
+                                animate=${{ opacity: 1, y: 0 }}
+                                exit=${{ opacity: 0, y: 20 }}
+                                onClick=${scrollToTop}
+                                className=${`fixed bottom-8 right-8 p-3 text-white rounded-full shadow-2xl transition-all z-50 group ${view === 'main' ? 'bg-blue-600 shadow-blue-600/40 hover:bg-blue-500' : 'bg-purple-600 shadow-purple-600/40 hover:bg-purple-500'}`}
+                            >
+                                <${ChevronUp} className="w-6 h-6 group-hover:-translate-y-1 transition-transform" />
+                            <//>
+                        `}
+                    <//>
+                </div>
+            `;
+        }
+
+        const root = createRoot(document.getElementById('root'));
+        root.render(React.createElement(App));
+    </script>
+</body>
+</html>
