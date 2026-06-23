@@ -1,0 +1,33 @@
+name: Auto-Update IPTV Playlist
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch: # Allows you to manually click a button to run it
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the bot to save the new file to your repo
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run update script
+        run: python update.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add TV/new.m3u
+          # This checks if there are new changes before trying to commit
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-updated external playlists"
+          git push
