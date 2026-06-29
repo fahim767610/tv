@@ -1,0 +1,33 @@
+name: Auto-Update M3U Playlist
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Runs every 6 hours automatically
+  workflow_dispatch: # Allows you to trigger it manually via a button
+  push:
+    paths:
+      - 'TV/base.m3u' # Runs automatically if you update your base file
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run update script
+        run: python update_playlist.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add TV/new.m3u
+          # Only commit if there are actually changes to avoid blank commits
+          git commit -m "Auto-update TV/new.m3u playlist" || exit 0
+          git push
