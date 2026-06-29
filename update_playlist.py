@@ -4,7 +4,7 @@ import os
 
 # The source playlists and your desired group names
 SOURCES = [
-    {"url": "https://github.com/fahim767610/tv/raw/refs/heads/main/TV/base.m3u", "group": None},
+    {"url": "https://github.com/fahim767610/tv/raw/refs/heads/main/base.m3u", "group": None},
     {"url": "https://github.com/ahan443/FAST-IPTV/raw/refs/heads/main/FIFA.m3u", "group": "FIFA"},
     {"url": "https://github.com/srhady/toffee-bd/raw/refs/heads/main/toffee_playlist.m3u", "group": "Toffee (NS Only)"}
 ]
