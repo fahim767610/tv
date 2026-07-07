@@ -1,87 +1,114 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 1
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="Sports",Toffee 1
 https://cdn-tt.pages.dev/ch1.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 2
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="Sports",Toffee 2
 https://cdn-tt.pages.dev/ch2.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 3
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="Sports",Toffee 3
 https://cdn-tt.pages.dev/ch3.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 4
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="Sports",Toffee 4
 https://cdn-tt.pages.dev/ch4.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 5
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="Sports",Toffee 5
 https://cdn-tt.pages.dev/ch5.m3u8
  
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQH4VBSB9lGpTA/company-logo_200_200/company-logo_200_200/0/1630668356175?e=2147483647&v=beta&t=YHP4YFiZr_hR9Xyu8PlNcxfCbr1PTYjjqPw5zTzsyfU" group-title="FIFA",Toffee 6
-https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-3/sst/0/master_1500.m3u8?hdntl=Expires=1783041148~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclDmkNXkDTQQGXnCCjWd5QHkSDMbhqlxjQMXVAkRhhpmNcibqgqbrtrtkAj3Tw2XG3KAUkV2Id5Q4q-XNVHiooUF
 
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",FOX Sports
-https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",United Sports 8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="Sports", T Sports 
+http://starhub.pro/live/farhat-3379/67897-913379/130714.ts
+
+#EXTINF:-1 tvg-logo="" group-title="Sports",Unite Sports 1
 https://ranapkbd.site/JOIN@RANAPK33/play.m3u8?id=373312
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",Unite 8 Sports 1
+http://fastshare1.com/live/25711345/late8airline/741567.ts
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",Unite 8 Sports 2
+http://66.102.126.10:8000/play/a018/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",D Sports
+#EXTINF:-1 tvg-logo="" group-title="Sports",D Sports
 https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",TyC Sports
+#EXTINF:-1 tvg-logo="" group-title="Sports",TyC Sports
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",Thunder
-https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name=" FOX ᵁᴴᴰ ³⁸⁴⁰ᴾ" tvg-logo="http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png" group-title=" Sports,FOX ᵁᴴᴰ ³⁸⁴⁰ᴾ
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2095902
+#EXTINF:-1 tvg-id="" tvg-name=" FOX [BK] ᵁᴴᴰ ³⁸⁴⁰ᴾ" tvg-logo="http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png" group-title=" Sports,FOX ᵁᴴᴰ ³⁸⁴⁰ᴾ
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2095901
+#EXTINF:-1 tvg-id="" tvg-name=" FOX SPORTS 1 ᵁᴴᴰ ³⁸⁴⁰ᴾ" tvg-logo="http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png" group-title=" Sports,FOX SPORTS 1 ᵁᴴᴰ ³⁸⁴⁰ᴾ
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2095900
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",Telemundo
+#EXTINF:-1 tvg-id="" tvg-name="NOW SPORTS 616 ᵁᴴᴰ ³⁸⁴⁰ᴾ" tvg-logo="http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png" group-title="Sports",NOW SPORTS 616 ᵁᴴᴰ ³⁸⁴⁰ᴾ
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2095898
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 1 HD" tvg-logo="http://51.158.145.100/picons/logos/CANADA/177344.png" group-title=" Sports",TSN 1 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077049
+#EXTINF:-1 tvg-id="" tvg-name="TSN 2 HD" tvg-logo="http://51.158.145.100/picons/logos/CANADA/177345.png" group-title=" Sports",TSN 2 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077048
+#EXTINF:-1 tvg-id="" tvg-name="TSN 3 HD" tvg-logo="http://51.158.145.100/picons/logos/CANADA/177346.png" group-title=" Sports",TSN 3 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077047
+#EXTINF:-1 tvg-id="" tvg-name="TSN 4 HD" tvg-logo="http://51.158.145.100/picons/logos/CANADA/177347.png" group-title=" Sports",TSN 4 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077046
+#EXTINF:-1 tvg-id="" tvg-name="TSN 5 HD" tvg-logo="http://51.158.145.100/picons/logos/CANADA/177348.png" group-title=" Sports",TSN 5 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077045
+
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 1 HD" tvg-logo="http://51.158.145.100/picons/logos/PORTUGANEW/SPORTTV1.png" group-title="Sports",SPORT TV 1 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077015
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 2 HD" tvg-logo="http://51.158.145.100/picons/logos/PORTUGANEW/SPORTTV2.png" group-title="Sports",SPORT TV 2 HD
+http://ate.tx-4kott.com:80/thucpzp4ah/aba5go9g0g/2077014
+
+
+#EXTINF:-1 tvg-logo="" group-title="Sports",Telemundo
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="FIFA",beIN Sports 1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="FIFA",beIN Sports Xtra
-https://bein-esp-xumo.amagi.tv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",NOW 4K
+
+
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",NOW 4K
 http://fastshare1.com/live/25711345/late8airline/745270.ts
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",next
-https://next.badinan.xyz/nexttv/FHD/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",Toffee
+
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",Toffee
 https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",T Sports
-http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",PTV
-http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",SUN
-http://198.195.239.50:8095/unt-s/video.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",Unite 8 Sports 1
-http://fastshare1.com/live/25711345/late8airline/741567.ts
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",Unite 8 Sports 2
-http://66.102.126.10:8000/play/a018/index.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",FS1
+
+
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",FS1
 http://fastshare1.com/live/25711345/late8airline/751354.ts
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",Fussball TV 1
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",Fussball TV 1
 http://fastshare1.com/live/25711345/late8airline/742610.ts
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="FIFA",Fussball TV 2
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Sports",Fussball TV 2
 http://fastshare1.com/live/25711345/late8airline/742611.ts
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/h1Wvy09C/1000283988.png" group-title="FIFA", T Sports 
-http://starhub.pro/live/farhat-3379/67897-913379/130714.ts
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="FIFA", Fussball TV1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="Sports", Fussball TV1
 http://starhub.pro/live/farhat-3379/67897-913379/742610.ts
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TD6fkDPj/1000284537.png" group-title="FIFA", FIFA WORLD CUP 2026 FHD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TD6fkDPj/1000284537.png" group-title="Sports", Sports  Sports FHD
 http://starhub.pro/live/farhat-3379/67897-913379/742611.ts
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="FIFA", FIFA WORLD CUP 2026 4K
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nMBnLS9h/1000284536.png" group-title="Sports", Sports  Sports 4K
 http://starhub.pro/live/farhat-3379/67897-913379/745269.ts
-#EXTINF:-1 tvg-logo="https://i.ibb.co/C32Rhtff/1000284518.png" group-title="FIFA", FIFA WORLD CUP 2026 4K
+#EXTINF:-1 tvg-logo="https://i.ibb.co/C32Rhtff/1000284518.png" group-title="Sports", Sports  Sports 4K
 http://starhub.pro/live/farhat-3379/67897-913379/745270.ts
+
+
+#EXTINF:-1 tvg-logo="" group-title="Sports",Thunder
+https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Sports",beIN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Sports",beIN Sports Xtra
+https://bein-esp-xumo.amagi.tv/playlist.m3u8
+
 
 
 
