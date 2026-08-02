@@ -72,7 +72,6 @@ https://bein-esp-xumo.amagi.tv/playlist.m3u8
 #marvel movies
 
 
-#EXTM3U
 #EXTINF:-1 group-title="MARVEL",Iron Man (2008)
 http://10.16.100.206/ftps3/ftps3d5/Movies/Dual%20Audio/Iron%20Man%20(2008)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
 #EXTINF:-1 group-title="MARVEL",The Incredible Hulk (2008)
@@ -119,141 +118,141 @@ http://10.16.100.214/iccftps14/iccftps14sasd3/Movies/Dual%20Audio/Captain%20Marv
 http://10.16.100.214/iccftps14/iccftps14sasd6/Movies/Dual%20Audio/Avengers%20Endgame%20(2019)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
 #EXTINF:-1 group-title="MARVEL",Spider-Man : Far From Home (2019)
 http://10.16.100.212/iccftps12/iccftps12sasd10/Movies/Dual%20Audio/Spider%20Man%20Far%20from%20Home%20(2019)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 01
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 01
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 02
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 02
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 03
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 03
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 04
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 04
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 05
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 05
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 06
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 06
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 07
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 07
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 08
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 08
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,WandaVision (2021)",WandaVision (2021) - Episode 09
+#EXTINF:-1 group-title="MARVEL",WandaVision (2021) - Episode 09
 http://10.16.100.212/iccftps12/iccftps12sasd1/Tv%20Show/Dual%20Audio/WandaVision%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/WandaVision%20S01E09.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 01
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 02
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 03
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 04
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 05
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Falcon and the Winter Soldier (2021)",Falcon and the Winter Soldier (2021) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Falcon and the Winter Soldier (2021) - Episode 06
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/The%20Falcon%20and%20The%20Winter%20Soldier%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/The%20Falcon%20and%20the%20Winter%20Soldier%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 01
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 02
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 03
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 04
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 05
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 1 (2021)",Loki Season 1 (2021) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Loki Season 1 (2021) - Episode 06
 http://10.16.100.206/ftps3/ftps3d8/TV%20Shows/Dual%20Audio/Loki%20Season%2001%20(2021)%20(Hindi%20and%20English)%20Completed/Loki%20S01E06.mp4
 #EXTINF:-1 group-title="MARVEL",Black Widow (2021)
 http://10.16.100.202/ftps10/iccftps10sasd4/Movies/Dual%20Audio/Black%20Widow%20(2021)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 01
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 01
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 02
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 02
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 03
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 03
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 04
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 04
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 05
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 05
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 06
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 06
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 07
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 07
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 08
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 08
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 1 (2021)",What If...? Season 1 (2021) - Episode 09
+#EXTINF:-1 group-title="MARVEL",What If...? Season 1 (2021) - Episode 09
 http://10.16.100.212/iccftps12/iccftps12sasd10/Tv%20Show/Dual%20Audio/What%20If%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/What%20If%20S01E09.mp4
 #EXTINF:-1 group-title="MARVEL",Shang-Chi and the Legend of the Ten Rings (2021)
 http://10.16.100.212/iccftps12/iccftps12sasd10/Movies/Dual%20Audio/Shang%20Chi%20and%20the%20Legend%20of%20the%20Ten%20Rings%20(2021)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
 #EXTINF:-1 group-title="MARVEL",Eternals (2021)
 http://10.16.100.212/iccftps12/iccftps12sasd1/Movies/Dual%20Audio/Eternals%20(2021)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 01
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 02
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 03
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 04
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 05
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Hawkeye (2021)",Hawkeye (2021) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Hawkeye (2021) - Episode 06
 http://10.16.100.202/ftps10/iccftps10sasd9/TV%20Shows/Dual%20Audio/Hawkeye%20Season%2001%20(2021)%20(Hindi%20&%20English)%20Completed/Hawkeye%20S01E06.mp4
 #EXTINF:-1 group-title="MARVEL",Spider-Man : No Way Home (2021)
 http://10.16.100.213/iccftps13/iccftps13sasd7/Movies/Dual%20Audio/Spider%20Man%20No%20Way%20Home%20(2021)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 01
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 02
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 03
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 04
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 05
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Moon Knight Season 1 (2022)",Moon Knight Season 1 (2022) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Moon Knight Season 1 (2022) - Episode 06
 http://10.16.100.213/iccftps13/iccftps13sasd5/TV%20Show/Serials%20(Dual%20Audio)/Moon%20Knight%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Moon%20Knight%20S01E06.mp4
 #EXTINF:-1 group-title="MARVEL",Doctor Strange in the Multiverse of Madness (2022)
 http://10.16.100.202/ftps10/iccftps10sasd6/Movies/Dual%20Audio/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20(2022)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 01
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 02
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 03
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 04
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 05
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Ms. Marvel Season 1 (2022)",Ms. Marvel Season 1 (2022) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Ms. Marvel Season 1 (2022) - Episode 06
 http://10.16.100.213/iccftps13/iccftps13sasd3/TV%20Show/Serials%20(Dual%20Audio)/Ms%20Marvel%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/Ms%20Marvel%20S01E06.mp4
 #EXTINF:-1 group-title="MARVEL",Thor : Love and Thunder (2022)
 http://10.16.100.213/iccftps13/iccftps13sasd3/Movies/Dual%20Audio/Thor%20Love%20and%20Thunder%20(2022)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,I Am Groot Season 2 (2023)",I Am Groot Season 2 (2023) - Episode 01
+#EXTINF:-1 group-title="MARVEL",I Am Groot Season 2 (2023) - Episode 01
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/I%20Am%20Groot%20Season%2002%20(2023)%20Completed/I%20Am%20Groot%20S02E01.mp4
-#EXTINF:-1 group-title="MARVEL,I Am Groot Season 2 (2023)",I Am Groot Season 2 (2023) - Episode 02
+#EXTINF:-1 group-title="MARVEL",I Am Groot Season 2 (2023) - Episode 02
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/I%20Am%20Groot%20Season%2002%20(2023)%20Completed/I%20Am%20Groot%20S02E02.mp4
-#EXTINF:-1 group-title="MARVEL,I Am Groot Season 2 (2023)",I Am Groot Season 2 (2023) - Episode 03
+#EXTINF:-1 group-title="MARVEL",I Am Groot Season 2 (2023) - Episode 03
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/I%20Am%20Groot%20Season%2002%20(2023)%20Completed/I%20Am%20Groot%20S02E03.mp4
-#EXTINF:-1 group-title="MARVEL,I Am Groot Season 2 (2023)",I Am Groot Season 2 (2023) - Episode 04
+#EXTINF:-1 group-title="MARVEL",I Am Groot Season 2 (2023) - Episode 04
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/I%20Am%20Groot%20Season%2002%20(2023)%20Completed/I%20Am%20Groot%20S02E04.mp4
-#EXTINF:-1 group-title="MARVEL,I Am Groot Season 2 (2023)",I Am Groot Season 2 (2023) - Episode 05
+#EXTINF:-1 group-title="MARVEL",I Am Groot Season 2 (2023) - Episode 05
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/I%20Am%20Groot%20Season%2002%20(2023)%20Completed/I%20Am%20Groot%20S02E05.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 01
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 01
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 02
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 02
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 03
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 03
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 04
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 04
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 05
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 05
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 06
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 06
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 07
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 07
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 08
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 08
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,She-Hulk (2022)",She-Hulk (2022) - Episode 09
+#EXTINF:-1 group-title="MARVEL",She-Hulk (2022) - Episode 09
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/She%20Hulk%20Attorney%20at%20Law%20Season%2001%20(2022)%20(Hindi%20&%20English)%20Completed/She%20Hulk%20Attorney%20at%20Law%20S01E09.mp4
 #EXTINF:-1 group-title="MARVEL",Werewolf by Night (2022)
 http://10.16.100.213/iccftps13/iccftps13sasd9/Movies/4K/English/Werewolf%20by%20Night%20(2022)%202160p%20WEBDL.mkv
@@ -261,175 +260,174 @@ http://10.16.100.213/iccftps13/iccftps13sasd9/Movies/4K/English/Werewolf%20by%20
 http://10.16.100.202/ftps10/iccftps10sasd8/Movies/Dual%20Audio/Black%20Panther%20Wakanda%20Forever%20(2022)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
 #EXTINF:-1 group-title="MARVEL",Ant-Man and the Wasp : Quantumania (2023)
 http://10.16.100.212/iccftps12/iccftps12sasd10/Movies/Dual%20Audio/Ant%20Man%20and%20the%20Wasp%20Quantumania%20(2023)%20(Hindi%20&%20English)%201080p%20BluRay.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 01
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 02
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 03
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 04
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 05
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Secret Invasion (2023)",Secret Invasion (2023) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Secret Invasion (2023) - Episode 06
 http://10.16.100.202/ftps10/iccftps10sasd6/Tv%20Show/Dual%20Audio/Secret%20Invasion%20Season%2001%20(2023)%20(Hindi%20&%20English)%20Completed/Secret%20Invasion%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 01
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E01.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 02
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E02.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 03
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E03.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 04
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E04.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 05
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E05.mp4
-#EXTINF:-1 group-title="MARVEL,Loki Season 2 (2023)",Loki Season 2 (2023) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Loki Season 2 (2023) - Episode 06
 http://10.16.100.214/iccftps14/iccftps14sasd8/Tv%20Show/Serials%20(Dual%20Audio)/Loki%20Season%2002%20(2023)%20(Hindi%20and%20English)%20Completed/Loki%20S02E06.mp4
 #EXTINF:-1 group-title="MARVEL",The Marvels (2023)
 http://10.16.100.214/iccftps14/iccftps14sasd2/Movies/Dual%20Audio/The%20Marvels%20(2023)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 01
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 01
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E01.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 02
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 02
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E02.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 03
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 03
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E03.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 04
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 04
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E04.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 05
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 05
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E05.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 06
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 06
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E06.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 07
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 07
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E07.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 08
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 08
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E08.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 2 (2023)",What If...? Season 2 (2023) - Episode 09
+#EXTINF:-1 group-title="MARVEL",What If...? Season 2 (2023) - Episode 09
 http://10.16.100.213/iccftps13/iccftps13sasd6/TV%20Show/Serials%20(Animation)/What%20If%20Season%2002%20(2023)%20Completed/What%20If%20S02E09.mp4
 #EXTINF:-1 group-title="MARVEL",Deadpool & Wolverine (2024)
 http://10.16.100.212/iccftps12/iccftps12sasd3/Movies/Dual%20Audio/Deadpool%20&%20Wolverine%20(2024)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 01
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 02
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 03
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 04
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 05
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 06
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 07
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 07
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 08
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 08
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,Agatha All Along Season 1 (2024)",Agatha All Along Season 1 (2024) - Episode 09
+#EXTINF:-1 group-title="MARVEL",Agatha All Along Season 1 (2024) - Episode 09
 http://10.16.100.202/ftps10/iccftps10sasd3/Tv%20Show/Dual%20Audio/Agatha%20All%20Along%20Season%2001%20(2024)%20(Hindi%20&%20English)%20Completed/Agatha%20All%20Along%20S01E09.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 01
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 01
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E01.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 02
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 02
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E02.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 03
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 03
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E03.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 04
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 04
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E04.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 05
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 05
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E05.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 06
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 06
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E06.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 07
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 07
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E07.mp4
-#EXTINF:-1 group-title="MARVEL,What If...? Season 3 (2024)",What If...? Season 3 (2024) - Episode 08
+#EXTINF:-1 group-title="MARVEL",What If...? Season 3 (2024) - Episode 08
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Animation)/What%20If%20Season%2003%20(2024)%20Completed/What%20If%20S03E08.mp4
 #EXTINF:-1 group-title="MARVEL",Captain America: Brave New World (2025)
 http://10.16.100.213/iccftps13/iccftps13sasd9/Movies/Dual%20Audio/Captain%20America%20Brave%20New%20World%20(2025)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 01
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 02
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 03
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 04
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 05
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 06
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 07
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 07
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 08
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 08
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again Season 1 (2025)",Daredevil: Born Again Season 1 (2025) - Episode 09
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again Season 1 (2025) - Episode 09
 http://10.16.100.214/iccftps14/iccftps14sasd6/Tv%20Show/Serials%20(English)/Daredevil%20Born%20Again%20Season%2001%20(2025)%20Completed/Daredevil%20Born%20Again%20S01E09.mp4
 #EXTINF:-1 group-title="MARVEL",Thunderbolts (2025)
 http://10.16.100.212/iccftps12/iccftps12sasd7/Movies/Dual%20Audio/Thunderbolts%20(2025)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 01
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 02
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 03
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 04
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 05
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Ironheart (2025)",Ironheart (2025) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Ironheart (2025) - Episode 06
 http://10.16.100.213/iccftps13/iccftps13sasd1/TV%20Show/Serials%20(Dual%20Audio)/Ironheart%20Season%2001%20(2025)%20(Hindi%20&%20English)%20Completed/Ironheart%20S01E06.mp4
 #EXTINF:-1 group-title="MARVEL",Fantastic Four: First Steps (2025)
 http://10.16.100.214/iccftps14/iccftps14sasd5/Movies/Dual%20Audio/The%20Fantastic%20Four%20First%20Steps%20(2025)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
-#EXTINF:-1 group-title="MARVEL,Eyes of Wakanda (2025)",Eyes of Wakanda (2025) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Eyes of Wakanda (2025) - Episode 01
 http://10.16.100.202/ftps10/iccftps10sasd7/Tv%20Show/Animation/Eyes%20of%20Wakanda%20Season%2001%20(2025)%20Completed/Eyes%20of%20Wakanda%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Eyes of Wakanda (2025)",Eyes of Wakanda (2025) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Eyes of Wakanda (2025) - Episode 02
 http://10.16.100.202/ftps10/iccftps10sasd7/Tv%20Show/Animation/Eyes%20of%20Wakanda%20Season%2001%20(2025)%20Completed/Eyes%20of%20Wakanda%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Eyes of Wakanda (2025)",Eyes of Wakanda (2025) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Eyes of Wakanda (2025) - Episode 03
 http://10.16.100.202/ftps10/iccftps10sasd7/Tv%20Show/Animation/Eyes%20of%20Wakanda%20Season%2001%20(2025)%20Completed/Eyes%20of%20Wakanda%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Eyes of Wakanda (2025)",Eyes of Wakanda (2025) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Eyes of Wakanda (2025) - Episode 04
 http://10.16.100.202/ftps10/iccftps10sasd7/Tv%20Show/Animation/Eyes%20of%20Wakanda%20Season%2001%20(2025)%20Completed/Eyes%20of%20Wakanda%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Marvel Zombies (2025)",Marvel Zombies (2025) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Marvel Zombies (2025) - Episode 01
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Animation)/Marvel%20Zombies%20Season%2001%20(2025)%20Completed/Marvel%20Zombies%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Marvel Zombies (2025)",Marvel Zombies (2025) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Marvel Zombies (2025) - Episode 02
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Animation)/Marvel%20Zombies%20Season%2001%20(2025)%20Completed/Marvel%20Zombies%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Marvel Zombies (2025)",Marvel Zombies (2025) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Marvel Zombies (2025) - Episode 03
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Animation)/Marvel%20Zombies%20Season%2001%20(2025)%20Completed/Marvel%20Zombies%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Marvel Zombies (2025)",Marvel Zombies (2025) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Marvel Zombies (2025) - Episode 04
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Animation)/Marvel%20Zombies%20Season%2001%20(2025)%20Completed/Marvel%20Zombies%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 01
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E01.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 02
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E02.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 03
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E03.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 04
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E04.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 05
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E05.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 06
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E06.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 07
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 07
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E07.mp4
-#EXTINF:-1 group-title="MARVEL,Wonder Man (2026)",Wonder Man (2026) - Episode 08
+#EXTINF:-1 group-title="MARVEL",Wonder Man (2026) - Episode 08
 http://10.16.100.214/iccftps14/iccftps14sasd5/Tv%20Show/Serials%20(Dual%20Audio)/Wonder%20Man%20Season%2001%20(2026)%20(Hindi%20&%20English)%20Completed/Wonder%20Man%20S01E08.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 01
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 01
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E01.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 02
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 02
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E02.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 03
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 03
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E03.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 04
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 04
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E04.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 05
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 05
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E05.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 06
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 06
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E06.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 07
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 07
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E07.mp4
-#EXTINF:-1 group-title="MARVEL,Daredevil: Born Again season 2 (2026)",Daredevil: Born Again season 2 (2026) - Episode 08
+#EXTINF:-1 group-title="MARVEL",Daredevil: Born Again season 2 (2026) - Episode 08
 http://10.16.100.212/iccftps12/iccftps12sasd7/Tv%20Show/Serials%20(Dual%20Audio)/Daredevil%20Born%20Again%20Season%2002%20(2026)%20(Hindi%20&%20English)%20Completed/Daredevil%20Born%20Again%20S02E08.mp4
 #EXTINF:-1 group-title="MARVEL",The Punisher: One Last Kill (2026)
 http://10.16.100.202/ftps10/iccftps10sasd8/Movies/English/The%20Punisher%20One%20Last%20Kill%20(2026)%201080p%20WEBDL.mp4
 #EXTINF:-1 group-title="MARVEL",Spider-Man: Brand New Day (2026)
 http://10.16.100.214/iccftps14/iccftps14sasd5/Movies/English/Spider%20Man%20Brand%20New%20Day%20(2026)%201080p%20CAMRip.mp4
-
 
 
 
